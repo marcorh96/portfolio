@@ -22,11 +22,17 @@ header {
     
 }
 
+.nav-container{
+    display: flex;
+    justify-content: space-around;
+    
+}
 .logo__text {
     background: linear-gradient(99.05deg, #BC3CD8 0.07%, #C54B8C 106.32%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     font-weight: var(--weight-active);
+    flex-basis: 40vw;
 }
 
 .active {
@@ -51,7 +57,7 @@ header {
 .nav__list {
     display: flex;
     align-items: center;
-    flex-basis: 45vw;
+    flex-basis: 40vw;
     justify-content: space-around;
 }
 
@@ -78,11 +84,9 @@ header {
     -webkit-text-fill-color: transparent;
     font-weight: var(--weight-active);
 }
-
 .container-fluid button {
     border: none;
 }
-
 .navbar-bar {
     padding: 1;
 }
@@ -164,4 +168,8 @@ header {
 .navbar-toggler .bottom-bar {
     top: inherit;
     transform: rotate(-135deg);
+}
+.navbar-collapse{
+    display: flex;
+    justify-content: space-around;
 }
