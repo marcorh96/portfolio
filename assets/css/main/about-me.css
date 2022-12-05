@@ -23,7 +23,7 @@
 }
 .curriculum{
     margin: 0 auto;
-    padding: 1rem;
+    padding: 1.5rem;
     color: var(--neutral-1);
     background: #BC3CD8 ;
     text-decoration: none;
@@ -37,7 +37,7 @@
 }
 .photo{
     border-radius: 100%;
-    object-fit: fill;
+    object-fit: contain;
     height: 40vh;
 }
 .about-me-description h5{

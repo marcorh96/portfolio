@@ -1,5 +1,6 @@
 footer{
-    margin-bottom: 3.2rem;
+    padding-top: 2.5rem;
+    padding-bottom: 3rem;
 }
 footer h1{
     color: var(--neutral-1);
