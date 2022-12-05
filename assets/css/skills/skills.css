@@ -1,9 +1,10 @@
 .skills-container{
     align-items: center;
     justify-content: center;
+    background: var(--main-bg-color);
 }
 .skill-container{
-    margin-bottom: 3.2rem;
+    padding-bottom: 3.2rem;
 }
 .skill-box{
     display: flex;

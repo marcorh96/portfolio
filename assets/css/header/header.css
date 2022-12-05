@@ -25,7 +25,9 @@ header {
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
     z-index: 1;
 }
-
+.typed-cursor{
+    display: none;
+}
 .logo__text {
     background: linear-gradient(99.05deg, #BC3CD8 0.07%, #C54B8C 106.32%);
     -webkit-background-clip: text;

@@ -7,7 +7,8 @@
     padding-top: 1rem;
     display: flex;
     justify-content: space-between;
-    margin-bottom: 3rem;
+    padding-bottom: 3rem;
+    
 }
 .project-container-right{
     padding-top: 1rem;
@@ -43,7 +44,11 @@
     text-align: justify;
 }
 .demo-btn{
-    padding: 1.5rem 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 95px;
+    height: 45px;
     color: var(--neutral-1);
     background: linear-gradient(99.05deg, #BC3CD8 0.07%, #C54B8C 106.32%);
     text-decoration: none;
@@ -65,16 +70,13 @@
   }
 @media screen and (max-width: 991px) {
     .project-buttons{
-        flex-direction: column;
-        flex-basis: 25vw;
+        width: 40vw;
     }
     .project-container-left{
         flex-direction: column;
-        gap: 1.5rem;
     }
     .project-container-right{
         flex-direction: column-reverse;
-        gap: 1.5rem;
     }
     .project-image-container{
         width: 92.5%;
@@ -83,7 +85,6 @@
     }
     .project-description-container{
         flex-basis: 100%;
-        gap: 1rem;
         align-items: center;
         width: 92.5%;
         margin: 0 auto;
@@ -102,6 +103,6 @@
   }
   @media screen and (max-width: 480px){
     .project-buttons{
-        flex-basis: 55vw;
+        width: 85vw;
     }
   }
