@@ -38,12 +38,12 @@
 .photo{
     border-radius: 100%;
     object-fit: fill;
-    height: 50vh;
+    height: 40vh;
 }
 .about-me-description h5{
     text-align: justify;
 }
-@media screen and (max-width: 993px) {
+@media screen and (max-width: 991px) {
     .description{
         margin-top: 1.5rem;
     }
@@ -54,9 +54,7 @@
     .curriculum{
         margin-bottom: 1.5rem;
     }
-    .photo{
-        margin-left: 2rem;
-    }
+    
   }
   @media screen and (max-width: 480px) {
     
@@ -68,6 +66,9 @@
         width: 90%;
         margin: 0 auto;
         margin-bottom: .5rem;
+    }
+    .photo{
+        width: 80vw;
     }
   }
 

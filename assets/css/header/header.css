@@ -53,7 +53,7 @@ header {
     align-items: center;
     flex-basis: 40vw;
     justify-content: space-around;
-    margin-right: 3rem;
+    
 }
 
 .nav__item {
@@ -78,6 +78,9 @@ header {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     font-weight: var(--weight-active);
+}
+.navbar>.container-fluid{
+    padding: 0 1rem;
 }
 .container-fluid button {
     border: none;
@@ -169,17 +172,16 @@ header {
     flex-basis: 20vw;
 }
 @media screen and (max-width: 991px) {
-    .logo__text{
-        margin-left: .8rem;
-    }
     .navbar-brand{
         flex-basis: 12vw;
     }
     .nav__list{
         margin-right: 0;
     }
-    .navbar-toggler{
-        margin-right: .8rem;
-    }
+}
+@media screen and (max-width: 480px){
+    .navbar>.container-fluid{
+        padding: 0 1.5rem;
+    }   
 }
 
