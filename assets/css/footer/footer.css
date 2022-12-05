@@ -1,0 +1,31 @@
+footer{
+    margin-bottom: 3.2rem;
+}
+footer h1{
+    color: var(--neutral-1);
+}
+.ref{
+    font-style: none;
+    text-decoration: none;
+    color: var(--neutral-1);
+}
+.ref:hover{
+    background: linear-gradient(99.05deg, #BC3CD8 0.07%, #C54B8C 106.32%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.copyright{
+    color: var(--neutral-2);
+}
+.bx{
+    font-size: 2.5rem;
+    color: var(--neutral-1);
+    transition: transform .2s; 
+}
+.bx:hover{
+    background: linear-gradient(99.05deg, #BC3CD8 0.07%, #C54B8C 106.32%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 700;
+    transform: scale(1.25);
+}
