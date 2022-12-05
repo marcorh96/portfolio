@@ -78,7 +78,7 @@ header {
 
 }
 
-.nav__link:hover {
+.nav__link:hover .a{
     background: linear-gradient(99.05deg, #BC3CD8 0.07%, #C54B8C 106.32%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
