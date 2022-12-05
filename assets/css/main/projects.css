@@ -67,7 +67,7 @@
         gap: 1.5rem;
     }
     .project-image-container{
-        width: 90%;
+        width: 92.5%;
         height: 45vh;
         margin: 0 auto;
     }
@@ -75,7 +75,7 @@
         flex-basis: 100%;
         gap: 1rem;
         align-items: center;
-        width: 90%;
+        width: 92.5%;
         margin: 0 auto;
     }
   }
