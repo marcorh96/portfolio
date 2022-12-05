@@ -13,6 +13,7 @@
 .skill-title{
     color: var(--neutral-1);
     margin-bottom: 2rem;
+    margin-top: 1.5rem;
 }
 .skill-subtitle{
     color: var(--neutral-2);
