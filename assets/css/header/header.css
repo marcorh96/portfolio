@@ -16,17 +16,11 @@ h1{
     font-weight: var(--weight-title);
 }
 header {
-    position: fixed;
     width: 100%;
+    position: fixed;
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
-    
 }
 
-.nav-container{
-    display: flex;
-    justify-content: space-around;
-    
-}
 .logo__text {
     background: linear-gradient(99.05deg, #BC3CD8 0.07%, #C54B8C 106.32%);
     -webkit-background-clip: text;
@@ -59,6 +53,7 @@ header {
     align-items: center;
     flex-basis: 40vw;
     justify-content: space-around;
+    margin-right: 3rem;
 }
 
 .nav__item {
@@ -78,7 +73,7 @@ header {
 
 }
 
-.nav__link:hover .a{
+.nav__link:hover{
     background: linear-gradient(99.05deg, #BC3CD8 0.07%, #C54B8C 106.32%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -169,7 +164,16 @@ header {
     top: inherit;
     transform: rotate(-135deg);
 }
-.navbar-collapse{
-    display: flex;
-    justify-content: space-around;
+.navbar-brand{
+    text-align: center;
+    flex-basis: 20vw;
 }
+@media screen and (max-width: 991px) {
+    .navbar-brand{
+        flex-basis: 12vw;
+    }
+    .nav__list{
+        margin-right: 0;
+    }
+}
+
