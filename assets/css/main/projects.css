@@ -82,6 +82,6 @@
   @media screen and (max-width: 768px){
     .project-image-container{
         flex-basis: 45vw;
-        height: 60vh;
+        height: 40vh;
     }
   }
