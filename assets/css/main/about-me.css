@@ -16,6 +16,7 @@
 }
 
 .description-h2 {
+    height: 32px;
     color: var(--neutral-2);
 }
 .description-h5 {
