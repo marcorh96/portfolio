@@ -9,6 +9,7 @@ navLinks.forEach( (l) => {
     l.addEventListener('click', () =>
     {  if (menuToggle.classList.contains('show'))  bsCollapse.toggle(); });}); 
 
+    
 window.addEventListener('scroll', () => {
     let current = '';
     sections.forEach(section => {

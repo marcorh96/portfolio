@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="./assets/css/animaciones/slide-in.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@200&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./assets/css/base/reset.css">
     <link rel="stylesheet" href="./assets/css/base/normalize.css">
@@ -68,7 +69,7 @@
         <section class="projects" id="projects">
             <div class="container">
                 <h1 class="project-title text-center">Proyectos</h1>
-                <div class="project-container-left">
+                <div class="project-container-left slide-in-left">
                     <div class="project-image-container">
                         <img src="./assets/img/projects/project-projaz-style.png" class="project-image">
                     </div>
@@ -83,7 +84,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="project-container-right">
+                <div class="project-container-right slide-in-right">
                     <div class="project-description-container">
                         <h2 class="project-title text-center">Pizzas Lord Projaz</h2>
                         <p class="project-description">Landing page utilizando HTML, CSS, JS y Bootstrap para realizar
@@ -244,10 +245,11 @@
         integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
         crossorigin="anonymous"></script>
     <script src="./assets/js/header/header.js"></script>
+
     <script>
 
         const typingEffect = new Typed('.description-h2', {
-            strings: ["Ingeniero en Sistemas", "FullStack Developer"],
+            strings: ["Ingeniero en Sistemas", "Web Developer"],
             loop: true,
             typeSpeed: 100,
             backSpeed: 80,
